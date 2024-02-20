@@ -60,3 +60,9 @@ span{
     color: #5F564D;
 }
 
+ul{
+    line-height: 180%;
+    padding: 24px;
+    font-size: 1.6rem;
+}
+
