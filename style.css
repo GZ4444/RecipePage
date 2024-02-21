@@ -45,6 +45,7 @@ h3{
     color:#7A284E;
     font-size: 2rem;
     font-weight:bolder;
+    padding: 24px;
 }
 
 p{
@@ -61,8 +62,29 @@ span{
 }
 
 ul{
-    line-height: 180%;
     padding: 24px;
+}
+
+.preparationUl{
+    line-height: 250%;
+    color: #7A284E;
+}
+
+.ingredientsUl{
+    color: #854632;
+    line-height: 170%;
+}
+
+li{
+    font-size: 1.6rem;
+    padding: 16px;
+}
+
+li span{
     font-size: 1.6rem;
 }
 
+.liLeftPart{
+    color: #5F564D;
+    font-weight: lighter;
+}
