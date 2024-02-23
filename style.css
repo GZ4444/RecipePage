@@ -1,90 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
-    font-family: 'Young Serif', serif;
-    font-size: 10px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Young Serif", serif;
+  font-size: 10px;
 }
 
-body{
-    font-size: 10px;
-    background-color: #F3E5D7;
+body {
+  font-size: 10px;
+  background-color: #f3e5d7;
 }
 
-main{
-    display: flex;
-    height: 100dvh;
-    width: 100dvw;
-    flex-direction: column;
-    gap: 10px;
+main {
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+  flex-direction: column;
+  gap: 10px;
 }
 
-img{
-    width: 100%;
-    height: 200px;
+img {
+  width: 100%;
+  height: 200px;
 }
 
-article{
-    padding: 32px;
+article {
+  padding: 0px 32px;
 }
 
-h1{
-    font-size: 3.2rem;
-    font-weight: normal;
+h1 {
+  font-size: 3.2rem;
+  font-weight: normal;
 }
 
-h2{
-    color:#854632;
-    font-size: 2.8rem;
-    font-weight: normal;
+h2 {
+  color: #854632;
+  font-size: 2.8rem;
+  font-weight: normal;
 }
 
-h3{
-    color:#7A284E;
-    font-size: 2rem;
-    font-weight:bolder;
-    padding: 24px;
+h3 {
+  color: #7a284e;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-p{
-    padding-top: 32px;
-    font-size: 1.6rem;
-    font-weight: lighter;
-    line-height: 30px;
-    color: #5F564D;
+p {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: 30px;
+  color: #5f564d;
 }
 
-span{
-    font-weight: bold;
-    color: #5F564D;
+span {
+  font-weight: bold;
+  color: #5f564d;
 }
 
-ul{
-    padding: 24px;
+.preparationUl {
+  line-height: 190%;
+  color: #7a284e;
+  width: 80%;
+  padding-left: 60px;
 }
 
-.preparationUl{
-    line-height: 250%;
-    color: #7A284E;
+.ingredientsUl {
+  color: #854632;
+  line-height: 170%;
+  padding-left: 40px;
 }
 
-.ingredientsUl{
-    color: #854632;
-    line-height: 170%;
+.instructionsOl {
+  line-height: 170%;
+  padding-left: 40px;
 }
 
-li{
-    font-size: 1.6rem;
-    padding: 16px;
+li {
+  font-size: 1.6rem;
+  padding: 16px;
 }
 
-li span{
-    font-size: 1.6rem;
+.preparationUl li {
+  padding: 10px;
 }
 
-.liLeftPart{
-    color: #5F564D;
-    font-weight: lighter;
+li span {
+  font-size: 1.6rem;
+}
+
+.liLeftPart {
+  color: #5f564d;
+  font-weight: lighter;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 16px;
+  font-size: 1.6rem;
+}
+
+.tdLeft {
+  color: #5f564d;
+}
+
+.tdRight {
+  color: #854632;
+}
+
+.tableP {
+  padding-top: 10px;
 }
