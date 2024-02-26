@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
+
+:root{
+  --cream: #f3e5d7;
+  --white: white;
+  --gray: #5f564d;
+  --raspberry: #7a284e;
+  --myRed: #854632;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +19,6 @@
 
 body {
   font-size: 10px;
-  background-color: #f3e5d7;
 }
 
 main {
@@ -19,6 +27,7 @@ main {
   width: 100dvw;
   flex-direction: column;
   gap: 10px;
+  background-color: white;
 }
 
 img {
@@ -36,13 +45,13 @@ h1 {
 }
 
 h2 {
-  color: #854632;
+  color: var(--myRed);
   font-size: 2.8rem;
   font-weight: normal;
 }
 
 h3 {
-  color: #7a284e;
+  color: var(--raspberry);
   font-size: 2rem;
   font-weight: bolder;
   padding-top: 24px;
@@ -54,23 +63,23 @@ p {
   font-size: 1.6rem;
   font-weight: lighter;
   line-height: 30px;
-  color: #5f564d;
+  color: var(--gray);
 }
 
 span {
   font-weight: bold;
-  color: #5f564d;
+  color: var(--gray);
 }
 
 .preparationUl {
   line-height: 190%;
-  color: #7a284e;
+  color: var(--raspberry);
   width: 80%;
   padding-left: 60px;
 }
 
 .ingredientsUl {
-  color: #854632;
+  color: var(--myRed);
   line-height: 170%;
   padding-left: 40px;
 }
@@ -94,7 +103,7 @@ li span {
 }
 
 .liLeftPart {
-  color: #5f564d;
+  color: var(--gray);
   font-weight: lighter;
 }
 
@@ -108,11 +117,11 @@ table td {
 }
 
 .tdLeft {
-  color: #5f564d;
+  color: var(--gray);
 }
 
 .tdRight {
-  color: #854632;
+  color: var(--myRed);
 }
 
 .tableP {
