@@ -127,3 +127,10 @@ table td {
 .tableP {
   padding-top: 10px;
 }
+
+/* test */
+@media screen and (min-width: 600px) {
+  main {
+    background-color: lightgreen;
+  }
+}
