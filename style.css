@@ -46,7 +46,6 @@ article {
 .prepArticle{
   display: flex;
   flex-direction: column;
-
 }
 
 h1 {
@@ -58,6 +57,7 @@ h2 {
   color: var(--myRed);
   font-size: 2.8rem;
   font-weight: normal;
+  align-self: flex-start;
 }
 
 h3 {
@@ -87,26 +87,23 @@ span {
   width: 75%;
 }
 
-.ingreArticle{
-  
-}
-
 .ingredientsUl {
   color: var(--myRed);
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 80%;
 }
 
 .instructionsOl {
-  line-height: 170%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 85%;
 }
 
 li {
   font-size: 1.6rem;
-}
-
-.preparationUl li {
 }
 
 li span {
@@ -132,9 +129,6 @@ table td {
 
 .tdRight {
   color: var(--myRed);
-}
-
-.tableP {
 }
 
 /* test */
