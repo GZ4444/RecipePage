@@ -100,6 +100,7 @@ span {
   flex-direction: column;
   gap: 10px;
   width: 85%;
+  color: var(--myRed);
 }
 
 li {
@@ -112,6 +113,10 @@ li span {
 
 .liLeftPart {
   color: var(--gray);
+  font-weight: bolder;
+}
+
+.liRightPart{
   font-weight: lighter;
 }
 
@@ -129,6 +134,7 @@ table td {
 
 .tdRight {
   color: var(--myRed);
+  font-weight: bolder;
 }
 
 /* test */
