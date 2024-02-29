@@ -37,13 +37,16 @@ img {
 
 article {
   width: 80%;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .prepArticle{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
+
 }
 
 h1 {
@@ -84,9 +87,15 @@ span {
   width: 75%;
 }
 
+.ingreArticle{
+  
+}
+
 .ingredientsUl {
   color: var(--myRed);
-  line-height: 170%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .instructionsOl {
