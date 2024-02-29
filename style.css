@@ -27,6 +27,7 @@ main {
   flex-direction: column;
   gap: 10px;
   background-color: white;
+  align-items: center;
 }
 
 img {
@@ -35,6 +36,13 @@ img {
 }
 
 article {
+  width: 80%;
+}
+
+.prepArticle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -52,6 +60,7 @@ h3 {
   color: var(--raspberry);
   font-size: 2rem;
   font-weight: bolder;
+  align-self: flex-start;
 }
 
 p {
@@ -69,7 +78,7 @@ span {
 .preparationUl {
   line-height: 190%;
   color: var(--raspberry);
-  width: 80%;
+  width: 70%;
 }
 
 .ingredientsUl {
