@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
-
-:root{
+:root {
   --cream: #f3e5d7;
   --white: white;
   --gray: #5f564d;
@@ -36,7 +35,6 @@ img {
 }
 
 article {
-  padding: 0px 32px;
 }
 
 h1 {
@@ -54,9 +52,6 @@ h3 {
   color: var(--raspberry);
   font-size: 2rem;
   font-weight: bolder;
-  padding-top: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 p {
@@ -75,27 +70,22 @@ span {
   line-height: 190%;
   color: var(--raspberry);
   width: 80%;
-  padding-left: 60px;
 }
 
 .ingredientsUl {
   color: var(--myRed);
   line-height: 170%;
-  padding-left: 40px;
 }
 
 .instructionsOl {
   line-height: 170%;
-  padding-left: 40px;
 }
 
 li {
   font-size: 1.6rem;
-  padding: 16px;
 }
 
 .preparationUl li {
-  padding: 10px;
 }
 
 li span {
@@ -112,7 +102,6 @@ table {
 }
 
 table td {
-  padding: 16px;
   font-size: 1.6rem;
 }
 
@@ -125,7 +114,6 @@ table td {
 }
 
 .tableP {
-  padding-top: 10px;
 }
 
 /* test */
@@ -133,6 +121,5 @@ table td {
   main {
     width: 20%;
     height: 50px;
-    
   }
 }
