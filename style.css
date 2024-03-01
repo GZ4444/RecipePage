@@ -18,6 +18,9 @@
 
 body {
   font-size: 10px;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 main {
@@ -128,7 +131,7 @@ table {
 table td {
   font-size: 1.6rem;
   border-bottom: 1px solid lightgray;
-  padding: 10px; 
+  padding: 10px; /* Tu uznałem ze padding się przyda */
 }
 
 .tdLeft {
@@ -142,10 +145,18 @@ table td {
 
 }
 
-/* test */
-@media screen and (min-width: 600px) {
-  main {
-    width: 20%;
-    height: 50px;
+@media only screen and (min-width: 768px) {
+  
+  body{
+    justify-content: center;
+    background-color: var(--cream);
   }
+
+  main{
+    width: 50%;
+    height: 80%;
+    border-radius: 2%;
+  }
+
 }
+
