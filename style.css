@@ -145,18 +145,29 @@ table td {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) 
+{
   
   body{
     justify-content: center;
+    align-items: center;
     background-color: var(--cream);
+    
+  }
+
+  img{
+    width: 70%;
+    height: 80%;
+    border-radius: 2%;
+    margin: 20px;
   }
 
   main{
-    width: 50%;
+    width: 40%;
     height: 80%;
     border-radius: 2%;
+    margin-top: 50px;
+  
   }
-
 }
 
