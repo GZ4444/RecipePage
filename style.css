@@ -123,21 +123,23 @@ li span {
 table {
   width: 100%;
   border-collapse: collapse;
-
 }
 
 table td {
   font-size: 1.6rem;
-  border-bottom: 1px solid #5f564d;
+  border-bottom: 1px solid lightgray;
+  padding: 10px; 
 }
 
 .tdLeft {
   color: var(--gray);
+  font-weight: lighter;
 }
 
 .tdRight {
   color: var(--myRed);
   font-weight: bolder;
+
 }
 
 /* test */
