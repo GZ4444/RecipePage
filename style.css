@@ -149,13 +149,14 @@ table td {
     justify-content: center;
     align-items: center;
     background-color: var(--cream);
+    padding-top: 40px;
   }
 
   img {
     width: 80%;
     height: 80%;
-    border-radius: 2%;
-    margin: 20px;
+    border-radius: 7%;
+    padding: 15px;
   }
 
   h1 {
@@ -164,8 +165,7 @@ table td {
 
   main {
     width: 40%;
-    height: 80%;
-    border-radius: 2%;
-    margin-top: 50px;
+    height: 90%;
+    border-radius: 1%;
   }
 }
